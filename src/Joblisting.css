@@ -1,0 +1,59 @@
+.Job-listing-home{
+border: 1px solid #ccc;
+    padding: 10px;
+    /* Add additional styling as per your requirements */
+
+    /* Specify grid properties */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Adjust the number of columns as needed */
+    grid-gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: all 0.2s;
+    border-radius: 10px;
+    height: 48vh;
+    margin: 10px;
+
+        
+}
+
+.Job-listing-home:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.Detail_btn{
+    text-decoration: none;
+    margin-top: 50px;
+    border: 1px solid black;
+    color: blue;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+
+}
+
+.Detail_btn:hover{
+    background-color: rgb(64, 180, 64);
+    color: white;
+}
+
+.icon_with{
+    display: flex;
+    align-items: center;
+    
+}
+
+.icon{
+    /* font-size: 1px; */
+
+    margin-right: 4px;
+}
+
+.company_name{
+  
+    color: rgb(64, 180, 64);
+    font-weight: 400;
+    
+    
+
+}
