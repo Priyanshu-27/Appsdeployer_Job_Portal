@@ -5,6 +5,7 @@ import './App.css'
 import Home from './Home'
 import JobdetailPage from './JobdetailPage'
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom'
+import { HashRouter as Router } from "react-router-dom"
 
 function App() {
  
